@@ -1,10 +1,8 @@
 name: slow_net_simulator
-description: "A Flutter package to simulate different network conditions for testing purposes.
-author: osama yeslam (os7soft)
-homepage: https://github.com/OS7-SOFT/slow_net_simulator"
+description: "A Flutter package to simulate different network conditions for testing purposes."
 
 version: 1.0.0
-homepage:
+homepage: https://github.com/OS7-SOFT/slow_net_simulator
 
 environment:
   sdk: ^3.6.0
