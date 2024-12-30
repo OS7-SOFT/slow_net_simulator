@@ -6,7 +6,7 @@ class SlowNetOverlay {
   static bool _isSettingsOpen = false;
   static Alignment _buttonAlignment = Alignment.bottomLeft;
 
-  static NetworkSpeed _currentSpeed = NetworkSpeed.EDGE_2G;
+  static NetworkSpeed _currentSpeed = NetworkSpeed.HSPA_3G;
   static double _currentFailureProbability = 0.0;
 
   static void showOverlay(BuildContext context) {

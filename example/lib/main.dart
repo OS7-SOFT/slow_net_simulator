@@ -31,7 +31,7 @@ class ExamplePage extends StatefulWidget {
 
 class _ExamplePageState extends State<ExamplePage> {
   double failureProbability = 0.0;
-  NetworkSpeed speed = NetworkSpeed.EDGE_2G;
+  NetworkSpeed speed = NetworkSpeed.HSPA_3G;
   Post? _data;
   String? errorResponse;
   bool _isLoading = false;
@@ -41,7 +41,7 @@ class _ExamplePageState extends State<ExamplePage> {
   @override
   void initState() {
     super.initState();
-    _configureSimulator(NetworkSpeed.EDGE_2G, 0.0);
+    _configureSimulator(NetworkSpeed.HSPA_3G, 0.0);
   }
 
   void _configureSimulator(NetworkSpeed speed, double failureProbability) {

@@ -12,7 +12,7 @@ enum NetworkSpeed {
 /// A class to configure and simulate slow network behavior.
 class SlowNetSimulator {
   static Duration _latency = Duration(milliseconds: 2000); // Default latency
-  static NetworkSpeed _currentSpeed = NetworkSpeed.EDGE_2G;
+  static NetworkSpeed _currentSpeed = NetworkSpeed.HSPA_3G;
   static double _failureProbability = 0.0;
 
   /// Configure the simulator with a specific speed and optional custom latency.
