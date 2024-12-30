@@ -293,3 +293,7 @@ Contributions are welcome! If you encounter issues or have feature requests, ple
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Package on Pub.dev
+
+Find this package on Pub.dev: [slow_net_simulator](https://pub.dev/packages/slow_net_simulator)
